@@ -2,7 +2,7 @@
 
 ![](./assets/introduction_pic.png)
 
-Mingshuang Luo<sup>1, 2, 3</sup>, Ruibing Hou<sup>1</sup>, Zhuo Li<sup>4, Hong Chang<sup>1, 3</sup>, Zimo Liu<sup>2</sup>, Yaowei Wang<sup>2</sup>, Shiguang Shan<sup>1, 3</sup>
+Mingshuang Luo<sup>1, 2, 3</sup>, Ruibing Hou<sup>1</sup>, Zhuo Li<sup>4</sup>, Hong Chang<sup>1, 3</sup>, Zimo Liu<sup>2</sup>, Yaowei Wang<sup>2</sup>, Shiguang Shan<sup>1, 3</sup>
 
 <sup>1</sup>Key Laboratory of Intelligent Information Processing of Chinese Academy of Sciences (CAS),
 Institute of Computing Technology, CAS, China <sup>2</sup>Peng Cheng Laboratory, China,
