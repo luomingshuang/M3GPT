@@ -6,7 +6,7 @@ Mingshuang Luo<sup>1, 2, 3</sup>, Ruibing Hou<sup>1</sup>, Zhuo Li<sup>4, Hong C
 
 <sup>1</sup>Key Laboratory of Intelligent Information Processing of Chinese Academy of Sciences (CAS),
 Institute of Computing Technology, CAS, China <sup>2</sup>Peng Cheng Laboratory, China,
-<sup>3</sup>University of Chinese Academy of Sciences, China
+<sup>3</sup>University of Chinese Academy of Sciences, China, 
 <sup>4</sup>WeChat, Tencent Inc
 
 # Abstract
