@@ -1,0 +1,14 @@
+data_root = '/data/luomingshuang/data/dataset_3dmotion/motionx_finedance_aistpp_30fps_22joints'
+split = 'train'
+unit_length = int(4)
+mean = '/data/luomingshuang/data/dataset_3dmotion/motionx_finedance_aistpp_30fps_22joints/Mean.npy'
+std = '/data/luomingshuang/data/dataset_3dmotion/motionx_finedance_aistpp_30fps_22joints/Std.npy'
+motionx_motion_code_path = '/data/luomingshuang/checkpoints/unified_io_motion_tasks/motion_vqvae_motiongpt_code_over_window_size/motionx_vq_vae_codes'
+motionx_text_path = '/data/luomingshuang/data/dataset_3dmotion/motion-x/texts/semantic_labels'
+instructions = '/home/luomingshuang/codes/multi-modal-motion-generation/unihcp-for-unified-motion-dance/instructions'
+w_vectorizer = '/home/luomingshuang/codes/multi-modal-motion-generation/unihcp-for-unified-motion-tasks/deps/glove/'
+fps = int(30)
+tmpFile = True
+tiny = False
+debug = False 
+std_text = False
