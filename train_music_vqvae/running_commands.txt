@@ -1,0 +1,5 @@
+## tokens to wav decoding
+python decode_tokens_to_wav.py --model=5b --load_path=./models --result_path=./audio_result_motiongpt_d2a_finedance --model_level=high
+
+## wav to tokens encoding
+python encode_wav_to_tokens.py --model=5b --load_path=./models --result_path=./audio_result_motiongpt_d2a_finedance --model_level=high
