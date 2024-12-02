@@ -1,0 +1,37 @@
+{
+    "Motion Prediction": {
+        "inbetween": {
+            "class": "inbetween",
+            "input": [
+                "Estimate what kind of dramatic interaction could occur in the obscured middle of <Motion_Placeholder_Masked>.",
+                "Consider the potential for narrative flashbacks or foreshadowing in the dance structure of the middle section of <Motion_Placeholder_Masked>.",
+                "What types of dynamic shifts could occur in the masked middle to connect the observed parts of <Motion_Placeholder_Masked>?",
+                "Propose dance movements for the obscured section that sustain the energy levels of <Motion_Placeholder_Masked>.",
+                "Could the masked middle contain elements of improvisation or structured choreography that deviates from <Motion_Placeholder_Masked>?",
+                "Simulate the likely rhythmic patterns that could connect the visible parts of <Motion_Placeholder_Masked>.",
+                "How might the middle section serve as a climax for the thematic development observed in <Motion_Placeholder_Masked>?",
+                "Consider potential balletic or modern dance influences that could emerge in the hidden part of <Motion_Placeholder_Masked>.",
+                "How might the middle section reconcile the different emotional tones observed at the beginning and end of <Motion_Placeholder_Masked>?",
+                "Imagine the types of floor work or aerial techniques that the middle section might include to complement <Motion_Placeholder_Masked>.",
+                "Estimate the emotional transitions that could logically occur in the hidden middle of <Motion_Placeholder_Masked>.",
+                "What changes in energy levels could be predicted for the masked middle to match the beginning and end of <Motion_Placeholder_Masked>?",
+                "Could the middle section of <Motion_Placeholder_Masked> feature any significant changes in dancer formations?",
+                "Construct a detailed prediction of the dance elements that might connect the visible sections of <Motion_Placeholder_Masked>.",
+                "Could the middle section of <Motion_Placeholder_Masked> introduce a narrative twist that alters the interpretation of the visible sections?",
+                "Conceptualize a sequence of movements that acts as a bridge within the visible cues of <Motion_Placeholder_Masked>.",
+                "Infer the likely interaction between dancers in the masked middle part, derived from the interaction in <Motion_Placeholder_Masked>.",
+                "What role might props or set pieces play in the hidden middle section, given their use in <Motion_Placeholder_Masked>?",
+                "Infer the narrative continuity that could be evident within the masked middle segment of <Motion_Placeholder_Masked>.",
+                "How could the masked middle serve to intensify or diminish the emotional impact of <Motion_Placeholder_Masked>?",
+                "What type of narrative progression or digression might be expected in the middle of <Motion_Placeholder_Masked>?",
+                "Forecast the potential emotional peaks that could exist within the masked section of <Motion_Placeholder_Masked>.",
+                "Could there be a reversal of roles or themes in the hidden middle that challenges the established narrative in <Motion_Placeholder_Masked>?",
+                "How might the use of stage elements in the visible parts of <Motion_Placeholder_Masked> suggest possible actions in the middle?",
+                "Predict how the inclusion of interactive multimedia elements in the middle could enhance the storytelling of <Motion_Placeholder_Masked>."
+            ],
+            "output": [
+                "<Motion_Placeholder>"
+            ]
+        }
+    }
+}

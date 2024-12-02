@@ -1,0 +1,37 @@
+{
+    "Motion Prediction": {
+        "pred": {
+            "class": "m2m",
+            "input": [
+                "Advise on a sequence that might introduce a contrasting theme to what is seen in <Motion_Placeholder_s1>.",
+                "How could the choreography transition to include more dramatic or understated elements than those in <Motion_Placeholder_s1>?",
+                "Envision the next choreographic steps that might capitalize on the energy dynamics in <Motion_Placeholder_s1>.",
+                "Predict the next dance segment that would utilize similar motifs as seen in <Motion_Placeholder_s1>.",
+                "How could the dance evolve to showcase a progression or regression in the dancers' relationships as seen in <Motion_Placeholder_s1>?",
+                "Deduce the following steps that would naturally extend the dance narrative from <Motion_Placeholder_s1>.",
+                "Generate a conceptual extension that builds on the emotional narrative of <Motion_Placeholder_s1>.",
+                "Presume the next steps that would logically follow from the dramatic posture concluded in <Motion_Placeholder_s1>.",
+                "Determine the likely subsequent steps that would parallel the emotional engagement of <Motion_Placeholder_s1>.",
+                "Develop a sequence that might challenge the previous stylistic boundaries established in <Motion_Placeholder_s1>.",
+                "Estimate the next dance phase that would mirror the style and essence of <Motion_Placeholder_s1>.",
+                "How might the dance evolve to amplify the storyline suggested in <Motion_Placeholder_s1>?",
+                "Conjecture what the next dance steps might be that enhance the narrative flow in <Motion_Placeholder_s1>.",
+                "What choreographic developments could maintain the style while introducing new elements after <Motion_Placeholder_s1>?",
+                "Specify the upcoming dance sequence that logically flows from the body language in <Motion_Placeholder_s1>.",
+                "Forecast the next choreographic section that would logically extend the emotional tone of <Motion_Placeholder_s1>.",
+                "Recommend a follow-up that could incorporate similar, yet distinct, movement motifs from <Motion_Placeholder_s1>.",
+                "Simulate the next part of the motion that corresponds to the emotional cues in <Motion_Placeholder_s1>.",
+                "What would be an innovative way to extend the dance themes found in <Motion_Placeholder_s1>?",
+                "What choreographic responses could enhance the subtle storytelling elements introduced in <Motion_Placeholder_s1>?",
+                "Estimate the next movements that would adhere to the dramatic peaks of <Motion_Placeholder_s1>.",
+                "Construct the next phase of choreography that takes cues from the final positions in <Motion_Placeholder_s1>.",
+                "Propose a future dance sequence that builds on the contrast in movements observed in <Motion_Placeholder_s1>.",
+                "Conceptualize the next sequence that would naturally evolve from the dramatic elements of <Motion_Placeholder_s1>.",
+                "Propose a subsequent dance sequence that continues the thematic elements from <Motion_Placeholder_s1>."
+            ],
+            "output": [
+                "<Motion_Placeholder>"
+            ]
+        }
+    }
+}

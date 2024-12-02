@@ -1,0 +1,13 @@
+{
+    "Audio-to-Dance": {
+        "a2d": {
+            "class": "a2d_prediction",
+            "input": [
+                "Generate a dance for <Audio_Placeholder>, Predict a motion for <Motion_Placeholder>"
+            ],
+            "output": [
+                "<Motion_Placeholder>"
+            ]
+        }
+    }
+}

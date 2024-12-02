@@ -1,0 +1,13 @@
+{
+    "Dance-to-Audio": {
+        "ad2a": {
+            "class": "ad2a",
+            "input": [
+                "Generate music: <MotionAudio_Placeholder>"
+            ],
+            "output": [
+                "<Audio_Placeholder>"
+            ]
+        }
+    }
+}

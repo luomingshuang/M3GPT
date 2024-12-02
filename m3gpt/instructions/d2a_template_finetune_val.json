@@ -1,0 +1,38 @@
+{
+    "Dance-to-Audio": {
+        "d2a": {
+            "class": "d2a",
+            "input": [
+                "Arrange a sequence of musical motifs that align with the choreography of <Motion_Placeholder>.",
+                "Can you compose a piece that parallels the narrative development in <Motion_Placeholder>?",
+                "What kind of musical structure would best match the rhythm of <Motion_Placeholder>?",
+                "How would you craft a melody that supports the choreographic creativity in <Motion_Placeholder>?",
+                "Compose a melody that adapts to the expressive features of <Motion_Placeholder>.",
+                "Generate a rhythmic pattern that reflects the core dance moves of <Motion_Placeholder>.",
+                "How would you design a melody that complements the performative artistry of <Motion_Placeholder>?",
+                "What method would you use to create a soundscape that complements the drama in <Motion_Placeholder>?",
+                "Compose a piece that mimics the dance patterns of <Motion_Placeholder>.",
+                "Construct a melody that mirrors the key emotional moments in <Motion_Placeholder>.",
+                "Formulate a tune that syncs with the pacing changes in <Motion_Placeholder>.",
+                "Can you synthesize a tune that captures the intricate gestures of <Motion_Placeholder>?",
+                "How would you arrange music that ties together the storyline and the movements in <Motion_Placeholder>?",
+                "Can you compose a tune that would emphasize the choreographic narrative of <Motion_Placeholder>?",
+                "Can you generate a backdrop that adapts to the fluid movements of <Motion_Placeholder>?",
+                "Invent music that emphasizes the dynamic range of <Motion_Placeholder>.",
+                "How can a soundtrack be developed that resonates with the core movements of <Motion_Placeholder>?",
+                "Craft a sequence of musical layers that trace the elegance of <Motion_Placeholder>.",
+                "Design music that resonates with the physical execution of <Motion_Placeholder>.",
+                "What rhythmic base would you use to support the energetic highlights of <Motion_Placeholder>?",
+                "Construct a score that brings out the narrative elements of <Motion_Placeholder>.",
+                "In what ways can you craft a melody that reflects the artistic intent behind <Motion_Placeholder>?",
+                "How can you arrange a sequence of beats that syncs with the dance steps of <Motion_Placeholder>?",
+                "Design a melody that parallels the energy bursts evident in <Motion_Placeholder>.",
+                "Write a melody that supports the dynamic shifts in <Motion_Placeholder>.",
+                "Arrange a score that emphasizes the drama portrayed in <Motion_Placeholder>."
+            ],
+            "output": [
+                "<Audio_Placeholder>"
+            ]
+        }
+    }
+}

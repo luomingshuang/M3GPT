@@ -1,0 +1,13 @@
+{
+    "Motion-to-Text": {
+        "m2t": {
+            "class": "m2t",
+            "input": [
+                "Generate a caption for <Motion_Placeholder>"
+            ],
+            "output": [
+                "<Caption_Placeholder>"
+            ]
+        }
+    }
+}

@@ -1,0 +1,38 @@
+{
+    "Dance-to-Audio": {
+        "d2a": {
+            "class": "d2a",
+            "input": [
+                "Write a composition that mirrors the artistic expression in <Motion_Placeholder>.",
+                "Produce a rhythmic accompaniment that adapts to the fluidity of <Motion_Placeholder>.",
+                "What method would you use to develop a thematic tune that emphasizes the choreographic details of <Motion_Placeholder>?",
+                "How can you synthesize a harmonic structure that explores the emotional depths of <Motion_Placeholder>?",
+                "Develop a musical narrative that intensifies the emotional impact of <Motion_Placeholder>.",
+                "Can you generate a melody that complements the narrative flow and energy transitions in <Motion_Placeholder>?",
+                "Invent a melody that captures the subtle nuances of <Motion_Placeholder>.",
+                "Design a melody that parallels the expressiveness of <Motion_Placeholder>.",
+                "Develop a rhythmic accompaniment that traces the storyline of <Motion_Placeholder>.",
+                "Design a series of musical elements that enhance the dance's narrative in <Motion_Placeholder>.",
+                "In what way can you produce a soundtrack that resonates with the structural dynamics of <Motion_Placeholder>?",
+                "How would you create a soundscape that complements the overall aesthetics of <Motion_Placeholder>?",
+                "How can you create a composition that ties together all elements of the performance in <Motion_Placeholder>?",
+                "Can you arrange a score that reflects the choreographic elegance of <Motion_Placeholder>?",
+                "Create a piece that dynamically interacts with the movements of <Motion_Placeholder>.",
+                "How could you design a soundscape that captures the unique rhythmic patterns of <Motion_Placeholder>?",
+                "Create a composition that captures the narrative arc reflected through <Motion_Placeholder>.",
+                "How would you formulate a piece that reflects the conceptual vision of <Motion_Placeholder>?",
+                "Construct a thematic tune that resonates with the conceptual ideas of <Motion_Placeholder>.",
+                "Arrange a thematic structure that amplifies the visual impact of <Motion_Placeholder>.",
+                "Develop a composition that captures the essence and rhythm of <Motion_Placeholder>.",
+                "",
+                "Invent a composition that enhances the narrative told through the movements of <Motion_Placeholder>.",
+                "Produce a rhythmic score that complements the artistic narrative of <Motion_Placeholder>.",
+                "Can you develop a soundtrack that resonates with the intensity of <Motion_Placeholder>?",
+                "Invent a musical theme that resonates with the overall dynamics and spirit of <Motion_Placeholder>."
+            ],
+            "output": [
+                "<Audio_Placeholder>"
+            ]
+        }
+    }
+}

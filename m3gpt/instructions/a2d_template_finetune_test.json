@@ -1,0 +1,37 @@
+{
+    "Audio-to-Dance": {
+        "a2d": {
+            "class": "a2d",
+            "input": [
+                "How would you translate the vibrant energy of <Audio_Placeholder> into a group dance?",
+                "Formulate movements that respond to the dynamic range within <Audio_Placeholder>.",
+                "Can you create a dance that would visually mimic the vocal harmonies in <Audio_Placeholder>?",
+                "How can dance emphasize the dramatic flair of <Audio_Placeholder>?",
+                "Create a dance that adapts the dramatic shifts in <Audio_Placeholder> into choreography.",
+                "Choreograph a dance that would visually amplify the unique sound of <Audio_Placeholder>.",
+                "What kind of dance narrative would align with the historical narratives in <Audio_Placeholder>?",
+                "How would you choreograph a dance that respects the historical influences in <Audio_Placeholder>?",
+                "Invent a dance routine that enhances the emotional impact of <Audio_Placeholder>.",
+                "Orchestrate a performance that visually represents the emotional landscape of <Audio_Placeholder>.",
+                "What steps would physically embody the spirit of <Audio_Placeholder>?",
+                "How could interpretive shadow dancing be used to echo the thematic depth of <Audio_Placeholder>?",
+                "Invent a series of gestures that complement the tempo changes in <Audio_Placeholder>.",
+                "Formulate a dance that would visually represent the instrumental complexity of <Audio_Placeholder>.",
+                "Develop a performance that could be used as an interpretative dance for <Audio_Placeholder>.",
+                "How could you choreograph a dance that mirrors the crescendo found in <Audio_Placeholder>?",
+                "Design a performance that visually interprets the lyrics of <Audio_Placeholder>.",
+                "Create a choreography that interprets the instrumental solos in <Audio_Placeholder>.",
+                "Generate a series of movements that capture the subtle nuances in <Audio_Placeholder>.",
+                "What kind of routine would visually represent the soft melodies in <Audio_Placeholder>?",
+                "How can you use dance to explore the genre characteristics evident in <Audio_Placeholder>?",
+                "Develop a dance reflecting the lyrical metaphors in <Audio_Placeholder>.",
+                "Compose a performance that can interpret the subtle instrumental dialogues in <Audio_Placeholder>.",
+                "Can you choreograph a sequence that reflects the pacing of <Audio_Placeholder>?",
+                "Can the emotional narrative of <Audio_Placeholder> be expressed through a lyrical dance routine?"
+            ],
+            "output": [
+                "<Motion_Placeholder>"
+            ]
+        }
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "Music-to-Text": {
+        "a2t": {
+            "class": "a2t",
+            "input": [
+                "Generate a corresponding dance caption based on <Audio_Placeholder>"
+            ],
+            "output": [
+                "<Caption_Placeholder>"
+            ]
+        }
+    }
+}

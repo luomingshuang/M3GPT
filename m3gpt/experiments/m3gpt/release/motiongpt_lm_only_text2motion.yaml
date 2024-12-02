@@ -1,0 +1,92 @@
+common:  # prefix
+  share_lm_group: [0]
+  solver:
+    type: SolverMultiTaskDev
+
+  model_entry_type: lm_model_entry
+
+  lr_scheduler:
+    type: 'Cosine'
+    kwargs:
+      eta_min: 0.
+      base_lr: 1.e-5
+      warmup_lr: 1.e-3
+      warmup_steps: 1500
+
+  backbone_multiplier: 1.
+  pos_embed_multiplier: 1.
+  layer_decay:
+    num_layers: 12
+    layer_decay_rate: 0.75
+    lpe_lr: True
+
+  optimizer:
+    type: Adafactor_dev
+    kwargs:
+      beta1: 0.9
+      clip_beta2: 0.999
+      clip_threshold: 1.
+      decay_rate: -0.8
+      scale_parameter: False
+      relative_step: False
+      weight_decay: 0.05
+
+  auto_denan: False
+
+  workers: 8
+  max_iter: 1000000 # 61446  # 0.1628001628001628 * |61446 for 149813 // 512 * 210
+
+  deterministic: True   # seed control
+  cudnn_deterministic: False
+  worker_rank: True
+  random_seed: 233
+
+  print_freq: 10
+  verbose_loss: False
+
+  save_interval: 10000
+
+
+  sync: True
+
+tasks :
+  0:
+    name: text-to-motion
+    loss_weight: 8300.
+    gres_ratio: 8  # int, > 0, = Task_GPUs / (world_Size/sum(all_gres_ratios))
+    lm:
+      type: MLM
+      kwargs:
+        model_type: t5
+        model_path: ../../../deps/flan-t5-base
+        stage: lm_pretrain
+        motion_codebook_size: 512
+        audio_codebook_size: 2048
+        max_length: 192
+        ablation:
+            use_length: False
+            predict_ratio: 0.2
+            inbetween_ratio: 0.25
+            image_size: 256
+    
+    dataset:
+      type: Text2MotionDatasetCB
+      collate: text2motion
+      kwargs:
+        data_root: 'motionx_finedance_aistpp_30fps_22joints'
+        split: 'train'
+        unit_length: 4
+        mean: 'motionx_finedance_aistpp_30fps_22joints/Mean.npy'
+        std: 'motionx_finedance_aistpp_30fps_22joints/Std.npy'
+        motionx_motion_code_path: 'motion_vqvae_motiongpt_code_over_window_size/motionx_vq_vae_codes'
+        motionx_text_path: 'motion-x/texts/semantic_labels'
+        instructions: 'instructions/t2m_template_pretrain.json'
+        fps: 30
+        tmpFile: True
+        tiny: False
+        debug: False 
+        std_text: False
+
+    sampler:
+      batch_size: 40
+      shuffle_strategy: 1

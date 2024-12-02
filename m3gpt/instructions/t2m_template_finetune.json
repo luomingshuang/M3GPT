@@ -1,0 +1,13 @@
+{
+    "Text-to-Motion": {
+        "t2m": {
+            "class": "t2m",
+            "input": [
+                "Generate motion: <Caption_Placeholder>"
+            ],
+            "output": [
+                "<Motion_Placeholder>"
+            ]
+        }
+    }
+}

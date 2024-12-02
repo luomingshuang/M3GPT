@@ -1,0 +1,37 @@
+{
+    "Motion Prediction": {
+        "pred": {
+            "class": "m2m",
+            "input": [
+                "Extend the narrative shown in <Motion_Placeholder_s1> into a new dance segment.",
+                "How might the subsequent dance segments mirror or contrast the fluidity in <Motion_Placeholder_s1>?",
+                "Plan a continuation of the dance that amplifies the story told by <Motion_Placeholder_s1>.",
+                "Project the next movements that would emphasize the subtle shifts in tempo from <Motion_Placeholder_s1>.",
+                "Devise a sequence that builds upon the physical expressions showcased in <Motion_Placeholder_s1>.",
+                "How might the choreography utilize the current technical demands of <Motion_Placeholder_s1> to introduce higher complexity?",
+                "Analyze potential future moves based on the concluding energy level of <Motion_Placeholder_s1>.",
+                "What would be a suitable continuation of the narrative hinted at in <Motion_Placeholder_s1>?",
+                "Formulate the next segment that would logically evolve from the tempo changes in <Motion_Placeholder_s1>.",
+                "Speculate on the upcoming choreography that would mirror the dance style of <Motion_Placeholder_s1>.",
+                "Determine the subsequent choreographic phrase that would complement the intensity observed in <Motion_Placeholder_s1>.",
+                "How might the next dance sequence explore the transition from group dynamics to individual expression seen in <Motion_Placeholder_s1>?",
+                "What choreographic choices could follow to enhance the storyline hinted at in <Motion_Placeholder_s1>?",
+                "What subsequent movements could provide a resolution or new twist to the narrative of <Motion_Placeholder_s1>?",
+                "Identify what comes next in the choreography after the climax in <Motion_Placeholder_s1>.",
+                "How could a choreographer continue the rhythm introduced in <Motion_Placeholder_s1>?",
+                "Envision a follow-up choreography that might emerge from the artistic interpretation in <Motion_Placeholder_s1>.",
+                "How might the choreography adapt to the subtle musical cues in <Motion_Placeholder_s1>?",
+                "Prepare a sequence that could extend the dance's engagement with its musical accompaniment from <Motion_Placeholder_s1>.",
+                "Propose the upcoming sequence based on the emotional climax in <Motion_Placeholder_s1>.",
+                "Compute the likely continuation of the choreography following the last move in <Motion_Placeholder_s1>.",
+                "What might be the next choreographic steps to explore the emotional residue left by <Motion_Placeholder_s1>?",
+                "What new elements could be introduced to complement the sequence in <Motion_Placeholder_s1>?",
+                "Analyze potential steps that could further the thematic exploration initiated in <Motion_Placeholder_s1>.",
+                "Generate the next dance movements that would fit the spatial use shown in <Motion_Placeholder_s1>."
+            ],
+            "output": [
+                "<Motion_Placeholder>"
+            ]
+        }
+    }
+}

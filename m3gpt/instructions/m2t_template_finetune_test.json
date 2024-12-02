@@ -1,0 +1,37 @@
+{
+    "Motion-to-Text": {
+        "m2t": {
+            "class": "m2t",
+            "input": [
+                "What is the most intricate part of <Motion_Placeholder> and why?",
+                "How does <Motion_Placeholder> manage to convey its message through purely physical means?",
+                "Analyze the symmetry and asymmetry in <Motion_Placeholder>.",
+                "How does <Motion_Placeholder> reflect the performer’s technique and skill?",
+                "Describe any symbolic elements within <Motion_Placeholder>.",
+                "Can you describe the collaboration, if any, between dancers in <Motion_Placeholder>?",
+                "Describe the most dramatic moment in <Motion_Placeholder> and its significance.",
+                "How does <Motion_Placeholder> challenge conventional movement norms?",
+                "What innovations in dance composition are evident in <Motion_Placeholder>?",
+                "Analyze how <Motion_Placeholder> manages to convey tension or relaxation.",
+                "How does <Motion_Placeholder> employ theatrical techniques to enhance the dance?",
+                "Discuss the integration of different dance styles within <Motion_Placeholder>.",
+                "How do the costumes amplify the meaning of the movements in <Motion_Placeholder>?",
+                "Describe how <Motion_Placeholder> illustrates a narrative climax or resolution.",
+                "What emotions are conveyed through <Motion_Placeholder>? Describe them.",
+                "Describe the sequence of movements in <Motion_Placeholder> and their meaning.",
+                "Discuss the role of improvisation or spontaneity in <Motion_Placeholder>.",
+                "Describe how <Motion_Placeholder> might evoke a specific historical period or event.",
+                "How does <Motion_Placeholder> interact with its surroundings?",
+                "Discuss the expression of agility and flexibility in <Motion_Placeholder>.",
+                "What kind of emotional journey is depicted through <Motion_Placeholder>?",
+                "Describe how repetition is used effectively in <Motion_Placeholder>.",
+                "Describe any notable duets within <Motion_Placeholder> and their significance to the piece.",
+                "Describe the sequence that leads to the climax of <Motion_Placeholder>.",
+                "Describe the aesthetic qualities of <Motion_Placeholder>."
+            ],
+            "output": [
+                "<Caption_Placeholder>"
+            ]
+        }
+    }
+}

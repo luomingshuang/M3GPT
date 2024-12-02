@@ -1,0 +1,13 @@
+{
+    "Dance-to-Audio": {
+        "d2a": {
+            "class": "d2a",
+            "input": [
+                "<Motion_Placeholder>"
+            ],
+            "output": [
+                "<Audio_Placeholder>"
+            ]
+        }
+    }
+}

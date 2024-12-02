@@ -1,0 +1,13 @@
+{
+    "Audio-to-Dance": {
+        "a2d": {
+            "class": "a2d",
+            "input": [
+                "Generate a dance for <Audio_Placeholder>"
+            ],
+            "output": [
+                "<Motion_Placeholder>"
+            ]
+        }
+    }
+}

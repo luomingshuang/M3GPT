@@ -1,0 +1,37 @@
+{
+    "Text-to-Motion": {
+        "t2m": {
+            "class": "t2m",
+            "input": [
+                "Define a movement that captures the contrasts described in <Caption_Placeholder>.",
+                "Devise a motion that portrays the sentiment described in <Caption_Placeholder>.",
+                "Can you generate a series of movements that reflect the lyrical poetry of <Caption_Placeholder>?",
+                "Show a gesture sequence that represents the struggle within <Caption_Placeholder>.",
+                "Generate a dance routine that conveys the struggle in <Caption_Placeholder>.",
+                "Develop a movement sequence that resonates with the style of <Caption_Placeholder>.",
+                "Show how you would translate the dialogue from <Caption_Placeholder> into dance.",
+                "Develop a motion sequence that matches the intensity of the narrative in <Caption_Placeholder>.",
+                "Interpret in movement the intricate details of the setting in <Caption_Placeholder>.",
+                "Invent a motion that illustrates the descriptive scenery in <Caption_Placeholder>.",
+                "Convey through choreography the tale of redemption found in <Caption_Placeholder>.",
+                "Compose a routine that parallels the adventure narrative in <Caption_Placeholder>.",
+                "Would you be able to interpret the philosophical queries in <Caption_Placeholder> into motion?",
+                "Outline a dance that captures the imaginative elements in <Caption_Placeholder>.",
+                "Plan a dance that interprets the tranquility depicted in <Caption_Placeholder>.",
+                "Implement a series of movements that match the poetic rhythm found in <Caption_Placeholder>.",
+                "Devise a dance that illustrates the peaceful resolution in <Caption_Placeholder>.",
+                "Can you create a dance that mimics the life cycle themes in <Caption_Placeholder>?",
+                "Can you generate a dance that embodies the tragic events described in <Caption_Placeholder>?",
+                "Script a series of movements that react to the plot twists in <Caption_Placeholder>.",
+                "Initiate a dance that portrays the natural phenomena described in <Caption_Placeholder>.",
+                "Create a motion that visually narrates the historical account in <Caption_Placeholder>.",
+                "Could you demonstrate a motion that captures the dynamic energy of <Caption_Placeholder>?",
+                "Plan a movement pattern that depicts the cultural journey in <Caption_Placeholder>.",
+                "Demonstrate a dance that matches the pace of the events in <Caption_Placeholder>."
+            ],
+            "output": [
+                "<Motion_Placeholder>"
+            ]
+        }
+    }
+}

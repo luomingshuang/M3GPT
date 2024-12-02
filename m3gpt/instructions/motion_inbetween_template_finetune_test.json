@@ -1,0 +1,37 @@
+{
+    "Motion Prediction": {
+        "inbetween": {
+            "class": "inbetween",
+            "input": [
+                "Could the middle section of <Motion_Placeholder_Masked> introduce any unexpected motifs, and how might they be integrated?",
+                "Predict the evolution of the dance motifs from the start to end of the visible parts to fill in the masked section.",
+                "Envision how the middle segment might feature unexpected dance techniques or styles that complement <Motion_Placeholder_Masked>.",
+                "Discuss potential ways the dancers' interactions could evolve to fill the unseen part of <Motion_Placeholder_Masked>.",
+                "Anticipate the ways in which the choreography might evolve across the obscured middle section of <Motion_Placeholder_Masked>.",
+                "Predict the type of movement vocabulary that could logically connect the visual cues given at both ends of <Motion_Placeholder_Masked>.",
+                "What kind of pacing might the hidden middle adopt to flow seamlessly with the visible parts of <Motion_Placeholder_Masked>?",
+                "Develop theories on how the choreographic style might evolve in the hidden section of <Motion_Placeholder_Masked>.",
+                "Suggest potential group formations that might bridge the visible sections of <Motion_Placeholder_Masked>.",
+                "Generate predictions for the masked choreography that complements the narrative arc visible in <Motion_Placeholder_Masked>.",
+                "Conjecture about how group dynamics might evolve through the hidden sequence in <Motion_Placeholder_Masked>.",
+                "What types of movements could logically connect the emotional expressions at both ends of <Motion_Placeholder_Masked>?",
+                "How might the dancers express the underlying themes of <Motion_Placeholder_Masked> in the unseen middle?",
+                "Could the hidden middle of <Motion_Placeholder_Masked> explore themes of symmetry or asymmetry, and how?",
+                "Project how the dance might experiment with levels and formations in the unrevealed middle section of <Motion_Placeholder_Masked>.",
+                "Infer the type of climax or dramatic arc that might be revealed in the central part of <Motion_Placeholder_Masked>.",
+                "Explore the possibility of integrating audience interaction in the middle section to alter the performance dynamics of <Motion_Placeholder_Masked>.",
+                "What thematic elements might be explored in the hidden middle that align with the emotional tone set in <Motion_Placeholder_Masked>?",
+                "Could the middle section of <Motion_Placeholder_Masked> introduce a contrasting mood to what is seen at the start and end?",
+                "Conceive possible solo or duet work that could characterize the middle of <Motion_Placeholder_Masked>.",
+                "How could the dynamics between solo and ensemble work be predicted for the masked middle based on <Motion_Placeholder_Masked>?",
+                "Suggest how the emotional undertone in the middle might develop from subtle to intense, linking the parts of <Motion_Placeholder_Masked>.",
+                "Consider how the middle section might explore themes of isolation or community, expanding on the cues from <Motion_Placeholder_Masked>.",
+                "Anticipate how the narrative might develop themes of conflict or resolution in the middle section of <Motion_Placeholder_Masked>.",
+                "Predict how the dancers might employ elevation and levels in the choreography of the middle section of <Motion_Placeholder_Masked>."
+            ],
+            "output": [
+                "<Motion_Placeholder>"
+            ]
+        }
+    }
+}

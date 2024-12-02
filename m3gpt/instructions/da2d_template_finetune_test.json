@@ -1,0 +1,37 @@
+{
+    "DanceAudio-to-Dance": {
+        "da2d": {
+            "class": "da2d",
+            "input": [
+                "Develop a dance that responds to and complements the concluding musical phrases of <MotionAudio_Placeholder>.",
+                "What group formations could be used to depict the ensemble effect in the music of <MotionAudio_Placeholder>?",
+                "In what ways could the choreography adapt to the variations in tempo found in <MotionAudio_Placeholder>?",
+                "Generate a choreographic response that mirrors the transitions between musical sections in <MotionAudio_Placeholder>.",
+                "What new dance motifs could be introduced that complement the existing style in <MotionAudio_Placeholder>?",
+                "Create a dance that explores the use of props or additional stage elements as suggested by the conclusion of <MotionAudio_Placeholder>.",
+                "Propose a series of movements that enhance the narrative suggested by <MotionAudio_Placeholder>.",
+                "Invent new dance motifs that align with the lyrical content or instrumental solos presented in <MotionAudio_Placeholder>.",
+                "Synthesize a sequence that maintains the dance integrity and musical alignment seen in <MotionAudio_Placeholder>, setting the stage for further exploration.",
+                "How might the dance evolve to further explore the emotional themes presented in the music of <MotionAudio_Placeholder>?",
+                "How could you design a dance that incorporates cultural elements suggested by the music in <MotionAudio_Placeholder>?",
+                "Design choreography that reflects the lyrical themes or instrumental highlights of <MotionAudio_Placeholder>.",
+                "How might aerial or acrobatic elements be integrated into the choreography to highlight musical lifts in <MotionAudio_Placeholder>?",
+                "Propose a continuation of the choreography that maintains the stylistic integrity of <MotionAudio_Placeholder>.",
+                "Create a dance that reflects the shifts from harmony to dissonance in the music of <MotionAudio_Placeholder>.",
+                "Choreograph a continuation that utilizes the costume or lighting cues observed at the end of <MotionAudio_Placeholder>.",
+                "Develop a dance piece that incorporates acrobatics or aerial elements in response to the peaks in <MotionAudio_Placeholder>.",
+                "Propose a choreography that responds to the final musical notes in <MotionAudio_Placeholder> with complementary movements.",
+                "In what ways could partner interactions be choreographed to reflect the harmonies or duets in <MotionAudio_Placeholder>?",
+                "Choreograph a sequence that mirrors the instrumental or vocal solo moments ending in <MotionAudio_Placeholder>.",
+                "What types of footwork could be choreographed to mirror the percussion elements in <MotionAudio_Placeholder>?",
+                "Generate a dance sequence that mirrors the transitions between musical sections in <MotionAudio_Placeholder>.",
+                "How might you choreograph the dance to mirror the structure and form of the music composition in <MotionAudio_Placeholder>?",
+                "What innovative dance techniques could be introduced that mirror the innovative musical techniques in <MotionAudio_Placeholder>?",
+                "Synthesize a dance that enhances the theatrical elements displayed in the final scenes of <MotionAudio_Placeholder>."
+            ],
+            "output": [
+                "<Motion_Placeholder>"
+            ]
+        }
+    }
+}

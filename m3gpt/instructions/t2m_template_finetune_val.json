@@ -1,0 +1,36 @@
+{
+    "Text-to-Motion": {
+        "t2m": {
+            "class": "t2m",
+            "input": [
+                "Choreograph a routine that captures the dynamic energy of <Caption_Placeholder>.",
+                "Formulate a physical expression that reflects the mood in <Caption_Placeholder>.",
+                "Choreograph a performance that represents the dynamic shifts in <Caption_Placeholder>.",
+                "How would you use dance to explore the themes of loss and recovery in <Caption_Placeholder>?",
+                "Illustrate the change in mood from <Caption_Placeholder> with a dynamic dance.",
+                "Execute a series of movements that capture the essence of the transformation described in <Caption_Placeholder>.",
+                "Create a motion sequence inspired by the artistic descriptions in <Caption_Placeholder>.",
+                "Could you choreograph a dance that interprets the climactic moment in <Caption_Placeholder>?",
+                "How might you choreograph a routine that reflects the social commentary in <Caption_Placeholder>?",
+                "Design movements that capture the essence of the dialogues in <Caption_Placeholder>.",
+                "What type of gestures would you use to represent the technological advancements in <Caption_Placeholder>?",
+                "Generate a dance that visually interprets the community interactions in <Caption_Placeholder>.",
+                "Fabricate a motion that embodies the spirit of the characters in <Caption_Placeholder>.",
+                "Create a dance that mimics the character interactions described in <Caption_Placeholder>.",
+                "How can you express the concepts of fate and destiny in <Caption_Placeholder> through dance?",
+                "What gestures would you use to portray the artistic elements mentioned in <Caption_Placeholder>?",
+                "Create a dance based on the epic battles depicted in <Caption_Placeholder>.",
+                "Can you interpret the cultural nuances in <Caption_Placeholder> through choreography?",
+                "Design a gesture that communicates the subtleties in <Caption_Placeholder>.",
+                "Could you choreograph a sequence that brings the dialogue in <Caption_Placeholder> to life?",
+                "Develop a motion sequence that represents the wisdom imparted by <Caption_Placeholder>.",
+                "Propose a motion that reflects the historical context of <Caption_Placeholder>.",
+                "Create a motion that visually represents the imagery described in <Caption_Placeholder>.",
+                "Formulate a motion sequence inspired by the resolution found in <Caption_Placeholder>."
+            ],
+            "output": [
+                "<Motion_Placeholder>"
+            ]
+        }
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "Motion Prediction": {
+        "inbetween": {
+            "class": "inbetween",
+            "input": [
+                "Predict a masked motion for <Motion_Placeholder_Masked>"
+            ],
+            "output": [
+                "<Motion_Placeholder>"
+            ]
+        }
+    }
+}

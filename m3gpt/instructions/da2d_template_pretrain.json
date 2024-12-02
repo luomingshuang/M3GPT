@@ -1,0 +1,13 @@
+{
+    "DanceAudio-to-Dance": {
+        "da2d": {
+            "class": "da2d",
+            "input": [
+                "Generate motion: <MotionAudio_Placeholder>"
+            ],
+            "output": [
+                "<Motion_Placeholder>"
+            ]
+        }
+    }
+}

@@ -1,0 +1,37 @@
+{
+    "DanceAudio-to-Dance": {
+        "da2d": {
+            "class": "da2d",
+            "input": [
+                "Design a sequence where dancers might utilize different levels and elevations as suggested by the dynamics in <MotionAudio_Placeholder>.",
+                "In what ways could the dancer's body language evolve to deepen the narrative conveyed by <MotionAudio_Placeholder>?",
+                "What kind of storytelling could be developed next to enhance the narrative hinted at in <MotionAudio_Placeholder>?",
+                "Propose a sequence that could serve as a dramatic conclusion to the narrative arc begun in <MotionAudio_Placeholder>.",
+                "Synthesize movements that could act as a counterbalance to the dominant themes in <MotionAudio_Placeholder>.",
+                "Create a sequence that extends the emotional arc conveyed through the music in <MotionAudio_Placeholder>.",
+                "What type of choreography would best express the underlying message or mood of the music in <MotionAudio_Placeholder>?",
+                "Generate a dance that expands on the use of stage space as hinted at by the positioning in <MotionAudio_Placeholder>.",
+                "Develop dance steps that could alternate between rapid and slow movements, mirroring the pacing in <MotionAudio_Placeholder>.",
+                "Generate movements that interpret the musical bridge or transition evident towards the end of <MotionAudio_Placeholder>.",
+                "What kind of spatial patterns could be choreographed to represent the musical structure in <MotionAudio_Placeholder>?",
+                "Generate a dance sequence that captures and extends the mood transition evident at the end of <MotionAudio_Placeholder>.",
+                "What kind of group dynamics could be choreographed to represent the ensemble effects in the music of <MotionAudio_Placeholder>?",
+                "Develop a sequence that takes the final dynamic movement in <MotionAudio_Placeholder> and evolves it further.",
+                "What choreographic responses could be created to respond to the ending of the music in <MotionAudio_Placeholder>?",
+                "What movements would effectively respond to the climax of the musical composition in <MotionAudio_Placeholder>?",
+                "Develop a sequence that captures the essence of the musical finale in <MotionAudio_Placeholder> through dance.",
+                "Develop a sequence that enhances the narrative arc begun in <MotionAudio_Placeholder>.",
+                "Develop a sequence that incorporates and builds upon the unique dance figures introduced in <MotionAudio_Placeholder>.",
+                "Propose movements that could logically follow the last executed turn or leap in <MotionAudio_Placeholder>.",
+                "Design a dance that responds to the final emotional cues and musical crescendos in <MotionAudio_Placeholder>.",
+                "Construct a choreographic piece that explores the musical and dance themes introduced in <MotionAudio_Placeholder>.",
+                "Create a dance that further explores the cultural or historical themes introduced in <MotionAudio_Placeholder>.",
+                "In what ways could the dance emphasize the musicality of the instruments used in <MotionAudio_Placeholder>?",
+                "Propose new dance forms or styles that could be integrated to complement the existing choreography in <MotionAudio_Placeholder>."
+            ],
+            "output": [
+                "<Motion_Placeholder>"
+            ]
+        }
+    }
+}

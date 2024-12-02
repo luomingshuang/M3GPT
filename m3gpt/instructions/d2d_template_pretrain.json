@@ -1,0 +1,13 @@
+{
+    "Motion Prediction": {
+        "pred": {
+            "class": "m2m",
+            "input": [
+                "Predict motion: <Motion_Placeholder_s1>"
+            ],
+            "output": [
+                "<Motion_Placeholder_s2>"
+            ]
+        }
+    }
+}
