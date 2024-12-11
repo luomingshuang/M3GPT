@@ -1,12 +1,420 @@
 <!DOCTYPE html>
 <html lang="en">
+
+
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Project</title>
+  <title>MotionLLM: Multimodal Motion-Language Learning with Large Language Models</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.2.1.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+  </script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_CHTML'></script>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+
+    video {
+      width: 100%;
+      height: auto;
+    }
+
+    p {
+      width: 95%;
+      padding: 10px;
+      margin: auto;
+    }
+
+    /* Remove the navbar's default margin-bottom and rounded borders */
+
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+
+    /* Add a gray background color and some padding to the footer */
+
+    footer {
+      background-color: #f2f2f2;
+      padding: 25px;
+    }
+
+    #ours {
+      font-weight: bold;
+    }
+
+    .glyphicon.glyphicon-arrow-down.main_arr {
+      font-size: 75px;
+    }
+
+    .glyphicon.glyphicon-option-horizontal.main_arr {
+      top: 50px;
+      font-size: 75px;
+    }
+
+    .glyphicon {
+      display: block;
+      text-align:center;
+    }
+
+    p {
+      font-size: 20px;
+    }
+
+    #noise {
+      text-align:center;
+      vertical-align: bottom;
+    }
+
+    .center {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 50px;
+    }
+
+    /* Style the buttons */
+    .button {
+      padding: 10px 20px;
+      background-color: #4b5760;
+      color: white;
+      border: none;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      font-weight: 500;
+      letter-spacing: 1px;
+      border-radius: 100px;
+      transition: background-color 0.3s ease;
+      cursor: pointer;
+      margin: 5px;
+    }
+  </style>
 </head>
+
 <body>
-    <h1>Welcome to My Project!</h1>
-    <p>This is my GitHub Pages project homepage.</p>
+
+
+  <div class="jumbotron" style="margin-bottom:0;background-color:transparent !important" id="title">
+    <div class="container text-center">
+      <h2><b>MotionLLM: Multimodal Motion-Language Learning<br> with Large Language Models</b></h2>
+    </div>
+
+    <!-- <div class="column has-text-centered">
+      <div class="publication-links">
+        <span class="link-block">
+          <a href="https://arxiv.org/abs/2405.17013"
+             class="external-link button is-normal is-rounded is-dark">
+            <span class="icon">
+                <i class="ai ai-arxiv"></i>
+            </span>
+            <span>arXiv</span>
+          </a>
+        </span>
+        <span class="link-block">
+          <a href="https://github.com/szqwu/MotionLLM"
+             class="external-link button is-normal is-rounded is-dark">
+            <span class="icon">
+                <i class="fab fa-github"></i>
+            </span>
+            <span>Code</span>
+            </a>
+        </span>
+      </div> -->
+
+    
+
+  <div  id="imple">
+    <div class="container-fluid">
+
+      <div class="row">
+        <div>
+          <div class="workflow text-center">
+            <img src="./static/images/pipeline.png"  alt="overview" height="379"  width="900" />
+          </div>
+        </div>  
+      </div>
+    </div>
+  </div>
+</div>
+
+  <div class="center">
+    <a href="https://github.com/szqwu/MotionLLM" class="button">GitHub</a>
+    <a href="https://arxiv.org/abs/2405.17013" class="button">arXiv</a>
+  </div>
+
+    <!-- <div  id="imple">
+      <div class="container-fluid">
+
+        <div class="row">
+          <div>
+            <div class="workflow text-center">
+              <img src="./static/images/pipeline.png"  alt="overview" height="379"  width="900" />
+            </div>
+          </div>  
+        </div>
+      </div>
+    </div>
+  </div> -->
+  
+  <div class="row">
+    <div class="col-sm-12">
+      <h3><b>Abstract</b></h3>
+      <p></p>
+    </div>
+  </div>
+  <div class="container"></div>
+      <div class="row">
+        <div class="col-md-12">
+          <p>
+            Recent advancements in Multimodal Large Language Models (MM-LLMs) have demonstrated promising potential in terms of generalization and robustness when applied to different modalities.
+            While previous works have already achieved 3D human motion generation using various approaches including language modeling, they mostly use specialized architecture and are restricted to single-human motion generation.
+            Inspired by the success of MM-LLMs, we propose <b>MotionLLM</b>, a simple and general framework that can achieve single-human, multi-human motion generation, and motion captioning by fine-tuning pre-trained LLMs. 
+            Specifically, we encode and quantize motions into discrete LLM-understandable tokens, which results in a unified vocabulary consisting of both motion and text tokens. 
+            With only 1-3% parameters of the LLMs trained by using adapters, our single-human motion generation achieves comparable results to those diffusion models and other trained-from-scratch transformer-based models. 
+            Additionally, we show that our approach is scalable and flexible, allowing easy extension to multi-human motion generation through autoregressive generation of single-human motions.
+            </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-sm-12">
+      <h3><b>Single-Human Motion Generation</b></h3>
+      <p></p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm-3">
+      <video width="300" playsinline autoplay muted loop height="100%">
+        <source src="./static/videos/demo_single_1.mp4" type="video/mp4">
+      </video>
+      <p><b>a person performs a backflip</p>
+    </div>
+    <div class="col-sm-3">
+      <video width="300" playsinline autoplay muted loop height="100%">
+        <source src="./static/videos/demo_single_2.mp4" type="video/mp4">
+      </video>
+      <p><b>a man is walking as if to be a zombie</p>
+    </div>
+    <div class="col-sm-3">
+      <video width="300" playsinline autoplay muted loop height="100%">
+        <source src="./static/videos/demo_single_3.mp4" type="video/mp4">
+      </video>
+      <p><b>a person is doing rope skipping exercise in the park</p>
+    </div>
+    <div class="col-sm-3">
+      <video width="300" playsinline autoplay muted loop height="100%">
+        <source src="./static/videos/demo_single_4.mp4" type="video/mp4">
+      </video>
+      <p><b>a person walks forward, turns around, and walks back the way he came</p>
+    </div>
+  </div>
+
+
+    <div class="row">
+      <div class="col-sm-12">
+        <h3><b>Single-Human Motion Generation Comparison</b></h3>
+        <p></p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-3">
+        <video width="300" playsinline autoplay muted loop height="100%">
+          <source src="./static/videos/compare_sinlge_mllm.mp4" type="video/mp4">
+        </video>
+        <p><b>Ours: A man kneels down and proposes marriage</p>
+      </div>
+      <div class="col-sm-3">
+        <video width="300" playsinline autoplay muted loop height="100%">
+          <source src="./static/videos/compare_sinlge_momask.mp4" type="video/mp4">
+        </video>
+        <p><b>MoMask: A man kneels down and proposes marriage</p>
+      </div>
+      <div class="col-sm-3">
+        <video width="300" playsinline autoplay muted loop height="100%">
+          <source src="./static/videos/compare_sinlge_mgpt.mp4" type="video/mp4">
+        </video>
+        <p><b>MotionGPT: A man kneels down and proposes marriage</p>
+      </div>
+      <div class="col-sm-3">
+        <video width="300" playsinline autoplay muted loop height="100%">
+          <source src="./static/videos/compare_sinlge_t2mgpt.mp4" type="video/mp4">
+        </video>
+        <p><b>T2M-GPT: A man kneels down and proposes marriage</p>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-sm-12">
+        <h3><b>More comparison between MotionLLM and MoMask</b></h3>
+        <p></p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-3">
+        <video width="300" playsinline autoplay muted loop height="100%">
+          <source src="./static/videos/compare_single_2_mllm.mp4" type="video/mp4">
+        </video>
+        <p><b>Ours: A man stands motionless and then take one steps backwards to the left</p>
+      </div>
+      <div class="col-sm-3">
+        <video width="300" playsinline autoplay muted loop height="100%">
+          <source src="./static/videos/compare_single_2_momask.mp4" type="video/mp4">
+        </video>
+        <p><b>MoMask: A man stands motionless and then take one steps backwards to the left</p>
+      </div>
+      <div class="col-sm-3">
+        <video width="300" playsinline autoplay muted loop height="100%">
+          <source src="./static/videos/compare_single_1_mllm.mp4" type="video/mp4">
+        </video>
+        <p><b>Ours: A person jumps and spins in the air 360 degrees counterclockwise</p>
+      </div>
+      <div class="col-sm-3">
+        <video width="300" playsinline autoplay muted loop height="100%">
+          <source src="./static/videos/compare_single_1_momask.mp4" type="video/mp4">
+        </video>
+        <p><b>MoMask: A person jumps and spins in the air 360 degrees counterclockwise</p>
+      </div>
+    </div>
+    
+    <div class="row">
+      <div class="col-sm-12">
+        <h3><b>Multi-human Motion Generation</b></h3>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-sm-3">
+        <video width="300" playsinline autoplay muted loop height="100%">
+          <source src="./static/videos/demo_multi_1.mp4"
+                  type="video/mp4">
+        </video>
+        <p>two people execute kicks to each other while standing</p>
+      </div>
+
+      <div class="col-sm-3">
+        <video width="300" playsinline autoplay muted loop height="100%">
+          <source src="./static/videos/demo_multi_2.mp4"
+                  type="video/mp4">
+        </video>
+        <p>one person prepares to strike while the other prepares to block the attack</p>      
+      </div>
+
+      <div class="col-sm-3">
+        <video width="300" playsinline autoplay muted loop height="100%">
+          <source src="./static/videos/demo_multi_3.mp4"
+                  type="video/mp4">
+        </video>
+        <p>one lifts the right arm to greet the other with a wave</p>
+      </div>
+      <div class="col-sm-3">
+        <video width="300" playsinline autoplay muted loop height="100%">
+          <source src="./static/videos/demo_multi_4.mp4"
+                  type="video/mp4">
+        </video>
+        <p>both people engage in a fencing bout, exchanging swift sword blows.</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-12">
+        <h3><b>Motion Captioning</b></h3>
+        <p>The following captions are generated by our MotionLLM.</p>
+      </div>
+    </div>
+
+    <div class="row"></div>
+      <div class="col-sm-3">
+      <video width="300" playsinline autoplay muted loop height="100%">
+        <source src="./static/videos/cap_demo_1.mp4" type="video/mp4">
+      </video>
+      <p>a person walks forward while holding arms out as if to be a zombie</p>
+      </div>
+
+      <div class="col-sm-3">
+      <video width="300" playsinline autoplay muted loop height="100%">
+        <source src="./static/videos/cap_demo_2.mp4" type="video/mp4">
+      </video>
+      <p>the person is walking on a balance beam</p>      
+      </div>
+
+      <div class="col-sm-3">
+      <video width="300" playsinline autoplay muted loop height="100%">
+        <source src="./static/videos/cap_demo_3.mp4" type="video/mp4">
+      </video>
+      <p>a person walks backwards in zig-zag motion</p>
+      </div>
+      <div class="col-sm-3">
+      <video width="300" playsinline autoplay muted loop height="100%">
+        <source src="./static/videos/cap_demo_4.mp4" type="video/mp4">
+      </video>
+      <p>a person uses their left hand to open a bottle, drinks from it, then places the
+        bottle back down</p>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-sm-12">
+        <h3><b>Multilingual text to motion</b></h3>
+
+        <p>The following prompts are translated using <a href="https://www.deepl.com">DeepL</a>.</p>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-sm-3">
+        <video width="300" playsinline autoplay muted loop height="100%">
+          <source src="./static/videos/demo_eng.mp4"
+                  type="video/mp4">
+        </video>
+        <p>English: A person first turns left, and then goes forward</p>
+      </div>
+
+      <div class="col-sm-3">
+        <video width="300" playsinline autoplay muted loop height="100%">
+          <source src="./static/videos/demo_german.mp4"
+                  type="video/mp4">
+        </video>
+        <p>German: Eine Person wendet sich zuerst nach links und geht dann vorwärts</p>      
+      </div>
+
+      <div class="col-sm-3">
+        <video width="300" playsinline autoplay muted loop height="100%">
+          <source src="./static/videos/demo_chinese.mp4"
+                  type="video/mp4">
+        </video>
+        <p>Chinese: 一个人先向左转，然后向前走</p>
+      </div>
+
+      <div class="col-sm-3">
+        <video width="300" playsinline autoplay muted loop height="100%">
+          <source src="./static/videos/demo_french.mp4"
+                  type="video/mp4">
+        </video>
+        <p>French: Une personne tourne d'abord à gauche, puis avance</p>
+      </div>
+    </div>
+	  
+	  <br>
+
 </body>
+<script>
+  $(".nav li").on("click", function() {
+    $(".nav li").removeClass("active");
+    $(this).addClass("active");
+  });
+</script>
+
 </html>
