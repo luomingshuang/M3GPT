@@ -1,16 +1,81 @@
-# [M<sup>3</sup>GPT: An Advanced Multimodal, Multitask Framework for Motion Comprehension and Generation](https://arxiv.org/abs/2405.16273)
+<br/>
+<p align="center">
+  <h1 align="center">M<sup>3</sup>GPT: An Advanced Multimodal, Multitask Framework for Motion Comprehension and Generation</h1>
+  <p align="center">
+    <a>Mingshuang Luo</a>,
+    <a>Ruibing Hou</a>,
+    <a>Zhuo Li</a>,
+    <a>Hong Chang</a>,
+    <a>Zimo Liu</a>,
+    <a>Yaowei Wang</a>,
+    <a>Shiguang Shan</a>
+  </p>
+  <p align="center">
+    <a href="https://arxiv.org/abs/2405.16273">
+      <img src='https://img.shields.io/badge/Paper-PDF-red?style=flat&logo=arXiv&logoColor=red' alt='Paper PDF'>
+    </a>
+    <a href='https://luomingshuang.github.io/M3GPT/' style='padding-left: 0.5rem;'>
+      <img src='https://img.shields.io/badge/Project-Page-blue?style=flat&logo=Google%20chrome&logoColor=blue' alt='Project Page'>
+    </a>
+  </p>
+</p>
 
-![](./assets/introduction_pic.png)
+---
 
-Mingshuang Luo<sup>1, 2, 3</sup>, Ruibing Hou<sup>1</sup>, Zhuo Li<sup>4</sup>, Hong Chang<sup>1, 3</sup>, Zimo Liu<sup>2</sup>, Yaowei Wang<sup>2</sup>, Shiguang Shan<sup>1, 3</sup>
+This is the official repository of **M<sup>3</sup>GPT**, An Advanced Multimodal, Multitask Framework for Motion Comprehension and Generation. 
 
-<sup>1</sup>Key Laboratory of Intelligent Information Processing of Chinese Academy of Sciences (CAS),
-Institute of Computing Technology, CAS, China <sup>2</sup>Peng Cheng Laboratory, China,
-<sup>3</sup>University of Chinese Academy of Sciences, China, 
-<sup>4</sup>WeChat, Tencent Inc
 
-# Abstract
-> This paper presents M<sup>3</sup>GPT, an advanced **M**ultimodal, **M**ultitask  framework for **M**otion comprehension and generation.  M<sup>3</sup>GPT operates on three fundamental principles. The first focuses on creating a unified representation space for various motion-relevant modalities. We employ discrete vector quantization for multimodal control and generation signals, such as text, music and motion/dance,  enabling  seamless integration into a large language model (LLM) with a single vocabulary.
-The second involves modeling model generation directly in the raw motion space. This strategy circumvents the information loss associated with discrete tokenizer, resulting in more detailed and comprehensive model generation. Third, M<sup>3</sup>GPT learns to model the connections and synergies among various motion-relevant tasks. Text, the most familiar and well-understood modality for LLMs, is utilized as a bridge to establish connections between different motion tasks, facilitating mutual 
-reinforcement. To our knowledge, M<sup>3</sup>GPT is the first model capable of comprehending and generating motions based on multiple signals.
-Extensive experiments highlight M<sup>3</sup>GPT's superior performance across various motion-relevant tasks and its powerful zero-shot generalization capabilities for extremely challenging tasks.
+![](assets/intro.png)
+
+---
+
+
+## Environment Preparation
+
+### 1. Conda environment
+```bash
+# clone project   
+git clone https://github.com/luomingshuang/M3GPT.git
+
+# create conda environment
+cd M3GPT
+conda create -n m3gpt python=3.8
+conda activate m3gpt
+
+# install dependencies
+pip install torch==2.0.0 --extra-index-url https://download.pytorch.org/whl/cu117
+pip install -r requirements.txt
+ ```  
+
+## Datasets Preparation
+### 1. Download Datasets
+This project is implemented with Motion-X, AIST++, and FineDance datasets.
+
+### 2. Preprocess Data
+In this project, we focus on the body-part motion (not including face and hand motion). So we use the body feats among the above three datasets to model m3gpt. For all motion data, we unify the frame rate to 30.
+
+## Train the Model
+
+### 1. Train text-motion evaluator
+
+### 2. Train motion vq-vae
+
+### 3. Train music vq-vae
+
+### 4. Multimodal Multitask LLM Pretrain
+
+### 5. Multimodal Multitask LLM Instruction Tune
+
+## Evaluate the Model
+
+### 1. Text-to-Motion
+
+### 2. Motion-to-Text
+
+### 3. Music-to-Dance
+
+### 4. Dance-to-Music
+
+### 5. Motion Prediction/Inbetween
+
+## Visualization
